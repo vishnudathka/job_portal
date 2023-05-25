@@ -1,3 +1,7 @@
 from django.contrib import admin
-
-# Register your models here.
+from core import models
+ 
+admin.site.register(models.JobCreateModel)
+admin.site.register(models.CategoryModel)
+admin.site.register(models.ContactModel)
+admin.site.register(models.ApplyJobModel)

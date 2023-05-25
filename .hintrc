@@ -8,7 +8,8 @@
     "axe/text-alternatives": [
       "default",
       {
-        "image-alt": "off"
+        "image-alt": "off",
+        "frame-title": "off"
       }
     ],
     "no-inline-styles": "off",
@@ -40,6 +41,7 @@
           "user-select: all"
         ]
       }
-    ]
+    ],
+    "button-type": "off"
   }
 }
